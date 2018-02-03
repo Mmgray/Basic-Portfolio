@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+header{
+    background-color:red;
+    width: 960px;
+    margin: 20px auto;
+    
+}
+h1{ 
+    float: left;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+   
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+.menu li a{
+    color: #dddddd;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.container{
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+#about {
+    
+    background-color: #ffffff;
+    width: 650px;
+    border: 5px solid red;
+    box-sizing: border-box;
+
+}
+
+h2{
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 650px;
+
+}
+
+#me{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+}
+
+p{
+    padding: 10px;
+    width:400px;
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      
+}
+.contact{
+    float: left;
+    border: 2px solid #dddddd; 
+    width: 650px;
+}
+    
+input[type=text], select, textarea {;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5 ;
+    color: white;
+    padding: 12px;
+    border: none;
+    text-align: center;
+}
+
+.connect{
+    float: right;
+    border-top: 5px solid #dddddd;
+}
+
+h3{
+    float: right;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.social{
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+
+#break{
+    clear: both;
+    background-color: #4aaaa5;
+    padding: 5px;
+}
+footer {
+    float: bottom;
+    position: relative;
+    background-color: #666666;
+    color:#ffffff;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+   
+}
+
