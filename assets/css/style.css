@@ -1,15 +1,23 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
+body{
+    background-image: url("assets/images/vintage-concrete.png");
+    background-color: rgb(236, 225, 211);
+
+}
 
 header{
-    background-color:red;
-    width: 960px;
-    margin: 20px auto;
-    
+    background-color:#ffffff;
+    border-bottom:2px solid #cccccc;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    overflow: auto;
 }
 h1{ 
     float: left;
@@ -17,18 +25,20 @@ h1{
     color:#ffffff;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px; 
+    width: 300px;
+    margin-left: 275px;
    
 }
 
 .menu{
-    float: right;
+   float: right;
     list-style: none;
-    margin: auto;
+    margin-left: 200px auto;
     padding: 20px;
-    margin-top: 20px;
+
 }
 
 li{
@@ -36,27 +46,27 @@ li{
 }
 
 .menu li a{
-    color: #dddddd;
+    color: #cccccc;
     text-decoration: none;
     padding: 5px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bolder;
 }
-
 
 .container{
     clear: both;
     width: 960px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    height: 650px;
+    margin: 0 auto 0 auto;
+       
     
 }
 #about {
-    
+    margin-top: 20px;
     background-color: #ffffff;
     width: 650px;
-    border: 5px solid red;
-    box-sizing: border-box;
+    height: 500px;
+    border: 1px solid #dddddd;
+    padding: 10px;
 
 }
 
@@ -64,7 +74,9 @@ h2{
     border-bottom: 2px solid #dddddd;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 650px;
+    width: 600px;
+    line-height: 50px;
+    padding: 10px;
 
 }
 
@@ -72,60 +84,106 @@ h2{
     float: left;
     width: 200px;
     height: 200px;
-    margin-left: 0;
+    margin: 15px;
 }
 
 p{
-    padding: 10px;
-    width:400px;
     overflow: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    padding: 10px;
       
 }
+
+form{
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    float: left;
+}
+    
+input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .contact-container{
+     border: 5px solid #dddddd;
+     background-color: #ffffff;
+     padding: 20px;
+     width: 650px;
+     height:500px
+ }   
 .contact{
     float: left;
     border: 2px solid #dddddd; 
     width: 650px;
-}
-    
-input[type=text], select, textarea {;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    width: 100%;
+    height: 500px;
 }
 
-input[type=submit] {
-    background-color: #4aaaa5 ;
-    color: white;
-    padding: 12px;
-    border: none;
+#portfolio{
+    float: left;
+}
+h5{
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
     text-align: center;
+    display: inline-table;
+    
 }
 
-.connect{
+#connect{
     float: right;
-    border-top: 5px solid #dddddd;
+    overflow-x: auto;
+    border: 1px solid #dddddd;
+    width: 270px;
+    height: 225px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    
 }
 
 h3{
-    float: right;
+
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    width: 250px;
+    line-height: 30px;
+    font-size: 20px;
 }
-
 
 .social{
-    float: right;
-    width: 25px;
-    height: 25px;
-    margin: 0;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block; 
+      
 }
-
 
 #break{
     clear: both;
